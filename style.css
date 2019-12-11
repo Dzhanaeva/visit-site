@@ -1,0 +1,38 @@
+body,
+html {
+  margin: 0;
+  height: 100%;
+}
+
+.page-wrapper {
+  min-height: 100%;
+  background-attachment: fixed;
+  background-position: 0 center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("./img/bg.jpg");
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.avatar-wrapper {
+  height: 150px;
+  width: 150px;
+  border-radius: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 60px;
+}
+.avatar {
+  height: 100%;
+  width: auto;
+}
+.main {
+  display: flex;
+}
+.name {
+  margin: 0px;
+}
